@@ -1,0 +1,40 @@
+algorithm_sentence
+var 
+i: integer := 0;
+longsent: integer;
+nbrmot: integer;
+voyel: string;
+//i= compteur, longsent= longeur phrase, nbmot=nombre de mot
+//pour determiner la longeur de la phrase
+
+while( i <> ".") do
+i := i+i
+i := i+1
+longsent := i
+end_while
+write(nbrmot);
+
+
+//le nombre de mot 
+while( i <> ".") do
+i := i+1
+nbrmot := i
+end_while
+write(nbrmot);
+
+//le nombre de voyelle
+
+while( i <> ".") do
+//si la lettre est égale a l'une des voyelles 
+if (nbrvoyel := "A" or nbrvoyel := "E" or nbrvoyel := "I" or
+nbrvoyel := "O" or nbrvoyel := "U" or nbrvoyel := "Y" ) then
+
+// alors la voyelle recoit le compteur 
+voyel := i 
+i := i+1
+end_if
+end_while 
+write(voyel);
+
+end 
+
