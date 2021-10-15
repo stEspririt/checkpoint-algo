@@ -6,7 +6,7 @@ nbrmot: integer;
 voyel: string;
 //i= compteur, longsent= longeur phrase, nbmot=nombre de mot
 //pour determiner la longeur de la phrase
-
+begin
 while( i <> ".") do
 i := i+i
 i := i+1
